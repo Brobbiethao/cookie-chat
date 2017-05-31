@@ -5,15 +5,17 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
+  <div><img src="https://cdn-images-1.medium.com/max/800/1*5_drEioJbSW_KBCajPQdsw.jpeg" width="100%">
+  </div>
   <body ng-controller="mainCtrl">
-    <div class="main-container">
-      <h1> DevMountain Chat Room </h1>
+    <div class="main-container" >
+      <h1><img src="https://s3.amazonaws.com/devmountain/www/img/logowhiteblue.png" width="250" align="center"></h1>
       <form ng-submit="postMessage(message)">
-        <input class="form-control text-box" type="text" ng-model="message" placeholder="Message">
+        <input class="form-control text-box" type="text" ng-model="message" placeholder="Talk to real women in our live chat now!">
       </form>
-      <div class="messages-container">
+      <div class="messages-container" class="sizer">
         <p ng-repeat="message in messages ">
-          {{message.message}} </p>
+          <br>{{message.message}}</p>
       </div>
     </div>
 

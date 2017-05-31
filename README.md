@@ -2,7 +2,7 @@
 ### Objective
 ####
 
-<img src="https://s3.amazonaws.com/devmountain/www/img/logowhiteblue.png" width="250" align="right">
+  <img src="https://s3.amazonaws.com/devmountain/www/img/logowhiteblue.png" width="250" align="right">
 
 ChatRoom
 ========
